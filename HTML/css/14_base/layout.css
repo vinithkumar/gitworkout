@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+/*
+Description: common layouting classes comes here
+Author: Tanishka Raut
+Version: 1.0
+--------------------
+f - float
+l, r - left, right
+Hd - header
+Txt - text
+Ttl - title
+Img - image
+Bg - background
+ */
+body {
+	background:url(../../images/bg_boxes.png) repeat;
+	margin:0 auto;
+	padding:0;
+/*	text-align:center;*/
+	width:1007px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.bodyWrap {
+	background:#cbdce2;
+	width:1007px;
+}
+.bodyWrap2 {
+	background:#fff;
+	width:1007px;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.clearBoth {
+	clear:both;
+}
+/*clearfix css starts here*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+/*clearfix css ends here*/
+.posRel {
+	position:relative;
+}
+.posAbs {
+	position:absolute;
+}
+.txtMO a, .txtMO a:hover {
+	color:#1aa3d1;
+	text-decoration:underline;
+}
+ul {
+	list-style-type:none;
+}
+.ovrHid {
+	overflow:hidden;
+}
+/*border radius css starts here*/
+.brdRds2 {
+    border-radius: 2px;
+}
+.brdRds6 {
+    border-radius: 6px ;
+}
+.brdRdsT10 {
+    border-radius:10px 10px 0px 0px;
+}
+.brdRdsB10 {
+    border-radius:0px 0px 10px 10px;
+}
+.brdRds20 {
+    border-radius:20px;
+}
+.brdRds25 {
+    border-radius:25px;
+}
+/*border radius css ends here*/
+/*border wrap css ends here*/
+.brdWrap-1 {
+	border:1px solid #e2e2e2;
+}
+/*border wrap css ends here*/
+.pageWrapper {
+	margin:0 auto;
+	/*text-align:center;*/
+	width:950px;
+}
+/*.contentWrapper {
+    background: #F0F2F2;
+	border-radius: 0px 0px 5px 5px;
+    color: #808080;
+    font-size: 14px;
+    padding: 30px;
+    width: 890px;
+	height:auto;
+	box-shadow:0px 1px 3px #dcdcdc;
+}
+.boxTtl{
+	font-size:17px;
+	color:#3d516e;
+}*/
+.divider-1 {
+	height:1px;
+	background:#dde0e1;
+}
+.divider-2 {
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, #FFF, #afdf72, #FFF);
+	background-image: -moz-linear-gradient(left, #FFF, #afdf72, #FFF);
+	background-image: -ms-linear-gradient(left,#FFF, #afdf72, #FFF);
+	background-image: -o-linear-gradient(left, #FFF, #afdf72, #FFF);
+}
+.divider-3 {
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, #FFF, #c5cfd2, #FFF);
+	background-image: -moz-linear-gradient(left, #FFF, #c5cfd2, #FFF);
+	background-image: -ms-linear-gradient(left,#FFF, #c5cfd2, #FFF);
+	background-image: -o-linear-gradient(left, #FFF, #c5cfd2, #FFF);
+}
+.divider-4 {
+	height:4px;
+	background:url(../../images/divider-4.gif) 0 0 repeat-x;
+}
+.divider-5 {
+	height:1px;
+	background:#d9d9d9;
+}
+.v-divider-1 {
+	border-left:1px solid #cdcaca;
+}

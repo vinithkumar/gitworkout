@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+/*
+Description: Form Elements css comes here
+Author: Tanishka Raut
+Version: 1.0
+--------------------
+fh - field height
+fixW - field width
+*/
+
+.fh-1 {
+	height:29px;
+}
+.fh-2 {
+	height:30px;
+}
+.fh-3 {
+	height:60px;
+}
+.fh-4 {
+	height:300px;
+}
+.fh-5 {
+	height:140px;
+}
+.fixW-1 {
+	width:233px;
+}
+.fixW-2 {
+	width:83px;
+}
+.fixW-3 {
+	width:102px;
+}
+.fixW-4 {
+	width:165px;
+}
+fieldset{}
+legend{}
+label{ margin: 5px 0; padding: 5px 0; }
+
+input[type=text], 
+input[type=password], 
+input.text,
+textarea { 
+	cursor:text; 
+	background:#f8f9f9;
+	border-top: 1px solid #E2E3E3;
+	border-right: 1px solid #E2E3E3;
+	border-bottom: 1px solid #f8f9f9;
+	border-left: 1px solid #E2E3E3;
+    box-shadow: 0px 1px 0px #C8C9C9 inset;
+	color:#818a8d;
+	font-size:14px;
+	border-radius:2px;
+    float: left;
+    /*margin: 0;*/
+    overflow: hidden;
+    padding: 0;
+}
+input[type=text],
+input[type=password],
+input.text{ 
+	/*background:#f8f9f9;*/
+	cursor:text;
+	font: 12px;
+	padding-left: 0.5em;
+	padding-right: 1em;
+}
+
+input[type=text]:focus, 
+input[type=password]:focus, 
+input.text:focus, 
+textarea:focus { border-color: #4DA8D0;outline: none; cursor:text; }
+
+input:focus {
+    color: #2B2B2B;
+    border: solid 1px #4DA8D0 inset;
+    -webkit-transition: all 0.15s ease-in;
+}
+
+/*homepage form css starts*/
+form input.roundInput {
+	background:#FFF;
+	font-size:14px;
+	color:#cccccc;
+	width:154px;
+	height:28px;
+	border:1px solid #a9b0ba;
+	border-radius:15px 15px 15px 15px;
+	padding:2px 6px 0px 6px;
+	margin:0px 0px 6px 45px;
+} 
+.RadioWrap {
+	margin:3px 0px 10px 28px;
+}
+.Radio label.type1, .Radio label.type2, .Radio label.type3 {  
+	display: inline-block;  
+	cursor: pointer;  
+	position: relative;  
+	padding-left: 25px;  
+	margin-right: 15px;  
+}
+.Radio label.type1 {  
+	color:#FFF;
+}  
+.Radio label.type1, .Radio label.type2 { 
+	font-size: 13px;
+}
+label.type1:before, label.type2:before, label.type3:before {  
+	content: "";  
+	display: inline-block;     
+	width: 17px;  
+	height: 17px;    
+	margin-right: 10px;  
+	position: absolute;  
+	left: 0;  
+	bottombottom: 1px;  
+	background-color: #fff;  
+	box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+}
+.Radio label.type1:before, .Radio label.type2:before, .Radio label.type3:before {  
+	border-radius: 12px;  
+}
+input[type=radio]:checked + label:before {  
+	content: "\2022";  
+	color: #4e4e4e;  
+	font-size: 24px;  
+	text-align: center;  
+	line-height: 16px;
+}
+/*homepage form css ends*/
+
+/*check box css starts*/
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label {
+    color:#818a8d;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 10px 0 0;
+    vertical-align:middle;
+    background:url(../../images/common.png) no-repeat -138px -40px;
+    cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    background:url(../../images/common.png) no-repeat -118px -40px;
+}
+
+/*check box css ends*/
+
+/*list box css starts*/
+.list, .list-2, .list-3 {
+	height:30px;
+    overflow:hidden; /* this hides the select's drop button */
+	border-top: 1px solid #ededed;
+	border-right: 1px solid #e5e5e5;
+	border-bottom: 1px solid #cacaca;
+	border-left: 1px solid #e5e5e5;
+    box-shadow: 1px 1px 1px #e5e5e5;
+}
+.list {
+	background: #f8f9f9 url(../../images/common.png) no-repeat 200px -95px;
+}
+.list-2 {
+	background: #f8f9f9 url(../../images/common.png) no-repeat 71px -95px;
+}
+.list-3 {
+	background: #f8f9f9 url(../../images/common.png) no-repeat 134px -95px;
+}
+.list select, .list-2 select, .list-3 select {
+    height:25px;
+    background:url(../../images/spacer.png) 0 0 repeat rgba(0, 0, 0, 0);
+    border:none;
+    box-shadow:none;
+	padding:2px 0px 3px 3px;
+	margin:4px 0px -1px 0px;
+}
+.list select {
+	width:109%;  /*this percentage effectively extends the drop down button out of view */
+}
+.list-2 select {
+	width:119%;  /*this percentage effectively extends the drop down button out of view */
+}
+.list-3 select {
+	width:112%;  /*this percentage effectively extends the drop down button out of view */
+}
+.list:hover, .list-2:hover, .list-3:hover  {
+	height:30px;
+	border: solid 1px #4DA8D0;
+}
+.list select option, .list-2 select option, .list-3 select option {
+	font-size:13px;
+	height:15px;
+	padding:2px 0px 2px 5px;
+	border-right:1px solid #CCC;
+	box-shadow:none;
+}
+/*list box css ends*/
+input[type=radio] {  
+    display: none;  
+}

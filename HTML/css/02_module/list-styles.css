@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.vidL {
+	width:545px;
+	height:auto;
+}
+.vidTtl {
+	font-size:22px;
+	color:#243f64;
+	margin-bottom:15px;
+}
+.listStyle-1 {
+	background:#e5f5fa;
+	border-radius:10px;
+	padding:0px 20px 0px 0px;
+}
+.listStyle-1 ul li{
+	margin:0px 0px 2px -20px;
+	color:#000000;
+	padding: 0px 0px 0px 12px;
+	background:url(../../images/common.png) no-repeat -175px -97px;
+}
+.listStyle-2 ul li{
+	background:url(../../images/common.png) no-repeat -171px -5px;
+	margin-left:-30px;
+}
+.listStyle-2 ul li div, .listStyle-3 ul li div{
+	margin-left:-30px;
+}
+.listStyle-3 ul li{
+	background:url(../../images/common.png) no-repeat -171px -135px;
+	margin-left:-30px;
+}
+
+.listStyle-4 ul {
+	padding: 0;
+	margin:0;
+}
+.listStyle-4 ul li {
+	margin-bottom:6px;
+}
+.listStyle-4 ul li a {
+	font-size:14px;
+	color:#a09f9f;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-left:15px;
+	text-decoration:none;
+}
+.listStyle-4 ul li a:hover, .listStyle-4 ul li a#active  {
+	background:url(../../images/common.png) no-repeat -89px -161px;
+	padding-left:-15px;
+	color:#454a68;
+}
+
+

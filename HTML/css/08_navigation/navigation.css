@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+/*
+Description: navigation section css comes here
+Author: Tanishka Raut
+Version: 1.0
+--------------------
+*/
+
+
+.navigation{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	margin: auto;
+	background-color: #639e28; /* fallback/image non-cover color */
+  	background-image: url(../images/fallback-gradient.png);  /* fallback image */
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#90c039), to(#639e28));/* Safari 4+, Chrome 1-9 */
+	background-image: -webkit-linear-gradient(top, #90c039, #639e28);  /* Safari 5.1+, Mobile Safari, Chrome 10+ */
+	background-image: -moz-linear-gradient(top, #90c039, #639e28);/* Firefox 3.6+ */
+	background-image: -ms-linear-gradient(top, #90c039, #639e28); /* IE 10+ */
+	background-image: -o-linear-gradient(top, #90c039, #639e28); /* Opera 11.10+ */
+}
+.navigation_section{
+	margin:0 auto;
+	/*z-index: 100;*/
+}
+.navigation_section ul {
+	list-style: none;
+	padding: 0;
+	margin:0px 0px 0px 0px;
+	float:left;
+	width: 950px;
+}
+.navigation_section ul li {
+	float: left;
+	height: 50px;
+	font-family: 'Museo700', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	border-left: 1px solid #90c039;
+	float:left;
+}
+.navigation_section ul li#first {
+	border-left: none;
+	float:left;
+}
+.navigation_section ul li#last {
+	border-right: none;
+	float:left;
+}
+.navigation_section ul li a{
+	display: block;
+	color: #fff;
+	width: auto;
+	height: 35px;
+	padding: 15px 25px 0px 25px;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation_section ul li a:hover {
+	display: block;
+	color: #fff;
+	background: #639e28;
+	width: auto;
+	height: 35px;
+	padding: 15px 25px 0px 25px;
+}
+.navigation_section ul li ul{
+	left:-500em;
+	position:absolute;
+}
+.navigation_section ul li ul li{
+	clear:both;
+}
+.navigation_section ul li:hover ul {
+	display: block;
+	position: absolute;
+	top: 208px;
+	left: auto;
+	height: auto;
+}
+.navigation_section ul li:hover ul li a {
+	display: block;
+	text-align: left;
+	border: 1px solid #90c039;
+	background: #639e28;
+	width: 150px;
+}
+.navigation_section ul li:hover ul li a:hover {
+	background: #253f64;
+}
+.navigation_section ul li:hover ul li:hover ul {
+	display: block;
+	position: absolute;
+	left: 115px;
+	top: 0;
+}

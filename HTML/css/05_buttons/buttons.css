@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+/*
+Description: buttons css comes here
+Author: Tanishka Raut
+Version: 1.0
+--------------------
+*/
+
+.but{
+    width: auto;
+    overflow: visible; /* for button width bug in IE */
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    outline:0; /* Background Gradients */
+    white-space: nowrap;
+}
+/* Button Sizes starts */
+.but-rg{
+	padding-right:20px;
+	padding-left:20px;
+}
+.but-lg{
+	padding-right:24px;
+	padding-left:24px;
+}
+.but-sm{
+    padding-right:18px;
+	padding-left:18px;
+}
+.but-vsm{
+    padding-right:10px;
+	padding-left:10px;
+}
+/*Buttons which stretches to whole length of screen*/
+.but-infinite{
+    width: 100%;
+    padding: 0px 20px;
+}
+/* Button Sizes ends */
+
+/* Button Themes starts here  */
+.but-1 {
+	background-color: #659d39; /* fallback/image non-cover color */ 
+    background-image: url(images/fallback-gradient.png);  /* fallback image */
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#92ca60), to(#417a1a));/* Safari 4+, Chrome 1-9 */
+    background-image: -webkit-linear-gradient(top, #92ca60, #417a1a);  /* Safari 5.1+, Mobile Safari, Chrome 10+ */
+    background-image: -moz-linear-gradient(top, #92ca60, #417a1a);/* Firefox 3.6+ */
+    background-image: -ms-linear-gradient(top, #92ca60, #417a1a);/* IE 10+ */  
+    background-image: -o-linear-gradient(top, #92ca60, #417a1a);/* Opera 11.10+ */
+	color:#FFF;
+	border:2px solid #285e06;
+}
+.but-1:hover {
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#417a1a), to(#92ca60));  
+    background-image: -webkit-linear-gradient(top, #417a1a, #92ca60); /* Safari 5.1+, Mobile Safari, Chrome 10+ */ 
+    background-image: -moz-linear-gradient(top, #417a1a, #92ca60); /* Firefox 3.6+ */
+    background-image: -ms-linear-gradient(top, #417a1a, #92ca60); /* IE 10+ */
+	background-image: -o-linear-gradient(top, #417a1a, #92ca60); /* Opera 11.10+ */
+}
+.but-2 {
+	border:4px solid #cbdce3;
+	background:#21a6d2;
+}
+.but-2:hover {
+	background:#0197c8;
+	border-color:#d1d1d1;
+}
+.but-3 {
+	border:4px solid #fde297;
+	background:none #fde297;
+	color:#fff;
+    background-color: #f5b30c; /* fallback/image non-cover color */ 
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f7c20e), to(#f19608)); /* Safari 4+, Chrome 1-9 */
+    background-image: -webkit-linear-gradient(top, #f7c20e, #f19608);  /* Safari 5.1+, Mobile Safari, Chrome 10+ */ 
+    background-image: -moz-linear-gradient(top, #f7c20e, #f19608);/* Firefox 3.6+ */
+    background-image: -ms-linear-gradient(top, #f7c20e, #f19608); /* IE 10+ */ 
+    background-image: -o-linear-gradient(top, #f7c20e, #f19608); /* Opera 11.10+ */
+	border:5px solid #black;
+}
+.but-3:hover {
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f19608), to(#f7c20e)); 
+    background-image: -webkit-linear-gradient(top, #f19608, #f7c20e); /* Safari 5.1+, Mobile Safari, Chrome 10+ */ 
+    background-image: -moz-linear-gradient(top, #f19608, #f7c20e); /* Firefox 3.6+ */ 
+    background-image: -ms-linear-gradient(top, #f19608, #f7c20e);/* IE 10+ */  
+    background-image: -o-linear-gradient(top, #f19608, #f7c20e); /* Opera 11.10+ */
+}
+.but-4 {
+	border:1px solid #479ee5;
+	background:#2eabd4;
+}
+.but-4:hover {
+	background:#0595c4;
+	border-color:#1d94f5;
+}
+.but-5 {
+	background:#c0c1c2;
+	border:1px solid #afafaf;
+}
+.but-5:hover {
+	background:#b2b2b2;
+	border-color:#9d9d9d;
+}
+.but-6 {
+	background:#8ccd3a;
+	border:4px solid #c4e1a1;
+}
+.but-6:hover {
+	background:#76c80e;
+	border-color:#b4de82;
+}
+.but-7 {
+	background:#43b3d8;
+	border:1px solid #18a2d0;
+}
+.but-7:hover {
+	background:#25a1ca;
+	border-color:#0c95c2;
+}
+.but-8 {
+	background:#eaf2e2;
+	border:1px solid #a8d76f;
+}
+.but-8:hover {
+	background:#dcefca;
+	border-color:#92c850;
+}
+.but-9 {
+	background-color: #31add5; /* fallback/image non-cover color */ 
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3ab0d7), to(#0a9dcd));/* Safari 4+, Chrome 1-9 */
+    background-image: -webkit-linear-gradient(top, #3ab0d7, #0a9dcd);  /* Safari 5.1+, Mobile Safari, Chrome 10+ */
+    background-image: -moz-linear-gradient(top, #3ab0d7, #0a9dcd);/* Firefox 3.6+ */
+    background-image: -ms-linear-gradient(top, #3ab0d7, #0a9dcd);/* IE 10+ */  
+    background-image: -o-linear-gradient(top, #3ab0d7, #0a9dcd);/* Opera 11.10+ */
+	color:#FFF;
+	border:1px solid #479ee5;
+}
+.but-9:hover {
+	background-color: #13b1e5; /* fallback/image non-cover color */ 
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#13b1e5), to(#04799f));/* Safari 4+, Chrome 1-9 */
+    background-image: -webkit-linear-gradient(top, #13b1e5, #04799f);  /* Safari 5.1+, Mobile Safari, Chrome 10+ */
+    background-image: -moz-linear-gradient(top, #13b1e5, #04799f);/* Firefox 3.6+ */
+    background-image: -ms-linear-gradient(top, #13b1e5, #04799f);/* IE 10+ */  
+    background-image: -o-linear-gradient(top, #13b1e5, #04799f);/* Opera 11.10+ */
+	border-color:#3e9ae5;
+}
+/* Button Themes ends here  */
+
+

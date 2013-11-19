@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*
+Description: Header section css comes here
+Author: Tanishka Raut
+Version: 1.0
+--------------------
+*/
+
+
+.header {
+	background:#253F64;
+    height: 158px;
+    width: 1007px;
+}
+.logo {
+	width: 260px;
+	height:117px;
+	margin-top:15px;
+}
+.headerFlag {
+	background:url(../../images/realator_sign.png) no-repeat;
+	width: 109px;
+	height:85px;
+	margin:72px 0px 0px 53px;
+	
+}
+.login {
+	margin:19px 24px 0px 0px;
+}
+.login, .login a {
+	color: #8abdd6;
+    font-size: 13px;
+    text-decoration: none;
+}
+.login a:hover {
+	color: #80b534;
+}
+.login span {
+	width:2px;
+	padding:0px 8px 0px 8px;
+	height:14px;
+	text-align:center;
+}

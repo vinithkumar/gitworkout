@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/*
+Description: container css comes here
+Author: Tanishka Raut
+Version: 1.0
+--------------------
+*/
+
+
+/* Module 1 - blue rounded box background with white content header */
+.standard_1-1 {
+    background: #0099CB;
+    border-radius: 5px 5px 0px 0px;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: auto;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 20px;
+    width: 910px;
+	box-shadow:0px 1px 3px #dcdcdc;
+}
+.standard_1-2 {
+	background: none repeat scroll 0 0 #F0F2F2;
+	border-radius: 2px 2px 2px 2px;
+	padding:10px;
+}
+/*Module 1 ends here*/
+
+/* Module 2 - grey gradient background with user details*/
+.standard_2-1 {
+	background-image: linear-gradient(bottom, rgb(207,207,207) 22%, rgb(224,224,224) 48%, rgb(227,227,227) 86%);
+	background-image: -o-linear-gradient(bottom, rgb(207,207,207) 22%, rgb(224,224,224) 48%, rgb(227,227,227) 86%);
+	background-image: -moz-linear-gradient(bottom, rgb(207,207,207) 22%, rgb(224,224,224) 48%, rgb(227,227,227) 86%);
+	background-image: -webkit-linear-gradient(bottom, rgb(207,207,207) 22%, rgb(224,224,224) 48%, rgb(227,227,227) 86%);
+	background-image: -ms-linear-gradient(bottom, rgb(207,207,207) 22%, rgb(224,224,224) 48%, rgb(227,227,227) 86%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.22, rgb(207,207,207)), color-stop(0.48, rgb(224,224,224)), color-stop(0.86, rgb(227,227,227)));
+	border-radius: 10px;
+}
+.standard_2-2 {
+	border-radius: 10px 0px 0px 10px;
+}
+.standard_2-3 {
+	background:#cbcccc;
+	border-radius: 10px;
+	padding:4px 0px 6px 8px;
+}
+.standard_2-3 a {
+	font-size:11px;
+	color:#02669a;
+	text-decoration:none;
+}
+.standard_2-3 a:hover {
+	text-decoration:underline;
+}
+.link1 {
+	background:url(../../images/common.png) 0px -152px no-repeat;
+	width:9px;
+	height:15px;
+}
+.link2 {
+	background:url(../../images/common.png) -13px -150px no-repeat;
+	width:13px;
+	height:11px;
+}
+.link3 {
+	background:url(../../images/common.png) -32px -150px no-repeat;
+	width:12px;
+	height:13px;
+}
+/*Module 2 ends here*/
+
+/* Module 3 - blue sharp box background with white content header */
+.standard_3-1 {
+    background: #0099CB;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: auto;
+    padding: 10px 20px 10px 28px;
+    width: 910px;
+	box-shadow:0px 1px 3px #dcdcdc;
+}
+/*Module 3 ends here*/
+
+
+/*Module 4 ends starts*/
+.standard_4-1 {
+    background: #f5f6f5;
+    height: auto;
+    padding: 20px 15px;
+    width: 910px;
+}
+.standard_4-2 {
+    background: #3399cc;
+    height: auto;
+	border-top:2px solid #1c76b5;
+}
+.standard_4-3 {
+    background: #f5f6f5;
+    height: auto;
+    padding: 0px 15px 20px 15px;
+    width: 910px;
+}
+/*Module 4 ends here*/
+
+/* Star rating Module starts here*/
+.rating div {
+	width:11px;
+	height:10px;
+	float:left;
+}
+.rating div.good {
+	background:url(../../images/common.png) -53px -150px no-repeat;
+}
+.rating div.ok {
+	background:url(../../images/common.png) -64px -150px no-repeat;
+}
+.rating div.bad {
+	background:url(../../images/common.png) -75px -150px no-repeat;
+}
+/* Star rating Module ends here*/

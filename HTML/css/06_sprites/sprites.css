@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/*
+Description: sprites comes here
+Author: Tanishka Raut
+Version: 1.0
+--------------------
+*/
+
+/* header social links starts */
+.socialLink {
+	margin-right:24px;
+	margin-top:10px;
+}
+.socialLink1, .socialLink2, .socialLink3, .socialLink4 {
+	height:16px;
+	margin-left:15px;
+}
+.socialLink1 {
+	background:url(../../images/socialLinks.jpg) 0px 0px no-repeat;
+	width:17px;
+}
+.socialLink2 {
+	background:url(../../images/socialLinks.jpg) -18px 0px no-repeat;
+	width:9px;
+}
+.socialLink3 {
+	background:url(../../images/socialLinks.jpg) -27px 0px no-repeat;
+	width:17px;
+}
+.socialLink4 {
+	background:url(../../images/socialLinks.jpg) -45px 0px no-repeat;
+	width:16px;
+}
+/* header social links ends */
+
+/* card pay starts */
+.card1, .card2, .card3 {
+	width:30px;
+	height:20px;
+}
+.card1 {
+	background:url(../../images/common.png) -39px -86px no-repeat;
+}
+.card2 {
+	background:url(../../images/common.png) -73px -86px no-repeat;
+}
+.card3 {
+	background:url(../../images/common.png) -106px -86px no-repeat;
+}
+.paypal {
+	width:80px;
+	height:24px;
+	background:url(../../images/common.png) -32px -117px no-repeat;
+}
+/* card pay ends */
+.help {
+	width:20px;
+	height:20px;
+	background:url(../../images/common.png) -94px -40px no-repeat;
+}
+.correct {
+	width:30px;
+	height:30px;
+	background:url(../../images/common.png) 0px -171px no-repeat;
+	left:200px;
+	top:24px;
+}
+
+
+

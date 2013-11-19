@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/*
+Description: customized font css comes here
+Author: Tanishka Raut
+Version: 1.0
+--------------------
+*/
+
+
+@font-face {
+    font-family: 'Museo100';
+    src: url('../../fonts/MuseoSans-100.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Museo300';
+    src: url('../../fonts/MuseoSans-300.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Museo500';
+    src: url('../../fonts/MuseoSans-500.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Museo700';
+    src: url('../../fonts/MuseoSans-700.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Museo900';
+    src: url('../../fonts/MuseoSans-900.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.museo100 {
+	font-family: 'Museo100', Arial, Helvetica, sans-serif;
+}
+.museo300 {
+	font-family: 'Museo300', Arial, Helvetica, sans-serif;
+}
+.museo500 {
+	font-family: 'Museo500', Arial, Helvetica, sans-serif;
+}
+.museo700 {
+	font-family: 'Museo700', Arial, Helvetica, sans-serif;
+}
+.museo900 {
+	font-family: 'Museo900', Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: 'MyriadProR'; /*Myrid Pro Regular*/
+    src: url('../../fonts/MyriadPro-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadProB';  /*Myrid Pro Bold*/
+    src: url('../../fonts/MyriadPro-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadProBI';  /*Myrid Pro Bold Italic*/
+    src: url('../../fonts/MyriadPro-BoldIt.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadProL'; /*Myrid Pro Light*/
+    src: url('../../fonts/MyriadPro-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadProSB'; /*Myrid Pro Light*/
+    src: url('../../fonts/MyriadPro-Semibold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.MyProR {
+	font-family: 'MyriadProR', Arial, Helvetica, sans-serif;
+}
+.MyProB {
+	font-family: 'MyriadProB', Arial, Helvetica, sans-serif;
+}
+.MyProBI {
+	font-family: 'MyriadProBI', Arial, Helvetica, sans-serif;
+}
+.MyProL {
+	font-family: 'MyriadProL', Arial, Helvetica, sans-serif;
+}
+.MyProSB {
+	font-family: 'MyriadProSB', Arial, Helvetica, sans-serif;
+}
+
+

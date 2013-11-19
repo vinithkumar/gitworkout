@@ -1,0 +1,61 @@
+/*
+    Tabs Layout
+    Author: Tanishka Raut
+	Version: 1.0
+
+    To be used with tabs.js
+*/
+
+
+/*  TAB css Sign up pages starts */
+.tabs-bar {
+	background: #FFF;
+	height:54px;
+	border-bottom:1px solid #cacbcb;
+}
+.tab-active {
+	-moz-box-shadow:inset 0px 3px 3px 0px #c5c6c6;
+	-webkit-box-shadow:inset 0px 3px 3px 0px #c5c6c6;
+	box-shadow:inset 0px 3px 3px 0px #c5c6c6;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e7e8e8), color-stop(1, #f0f2f2) );
+	background:-moz-linear-gradient( center top, #e7e8e8 5%, #f0f2f2 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e7e8e8', endColorstr='#f0f2f2');
+	background-color:#f0f2f2;
+	padding: 7px 40px;
+}
+.tab {
+	padding: 7px 30px;
+}
+.tab-2 {
+	padding: 7px 10px;
+}
+.circle {
+	float: left;
+	width:40px;
+	height:36px;
+	padding-top:4px;
+	border-radius:20px;
+	text-align:center;
+}
+.circleBg-1 {
+	background:#82c828;
+}
+.circleBg-2 {
+	background:#f0f2f2;
+}
+/*  TAB css Sign up pages ends */
+
+/*  TAB css Agent profile pages ends */
+.tab3-active, .tab3 {
+	border-radius:2px 2px 0px 0px;
+	padding: 9px 19px;
+}
+.tab3-active {
+	background-color:#f5f6f5;
+}
+.tab3 {
+	background-color:#fff;
+}
+/*  TAB css Agent profile pages ends */
+
+
